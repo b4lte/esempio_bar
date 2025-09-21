@@ -1,7 +1,8 @@
 import "./style.css";
 
 const button = document.querySelector(".btn");
+const target = document.querySelector<HTMLElement>("#menu");
 
 button?.addEventListener("click", () => {
-  alert("Benvenuto al Caffè Aurora! ☕");
+  target?.scrollIntoView({ behavior: "smooth" });
 });
