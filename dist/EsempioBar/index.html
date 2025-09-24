@@ -13,15 +13,30 @@
     />
   </head>
   <body>
+    <!-- ===== NAVBAR ===== -->
+    <nav class="navbar">
+      <div class="logo">☕ Caffè Aurora</div>
+      <ul class="nav-links">
+        <li><a href="#about">Chi siamo</a></li>
+        <li><a href="#specials">Specialità</a></li>
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#reviews">Recensioni</a></li>
+        <li><a href="#gallery">Galleria</a></li>
+        <li><a href="#contact">Contatti</a></li>
+      </ul>
+    </nav>
+
+    <!-- ===== HERO ===== -->
     <header class="hero">
-      <div class="hero-content">
+      <div class="hero-content fade-in">
         <h1>Caffè Aurora</h1>
         <p>Un’esperienza unica, dal primo sorso all’ultimo sorriso.</p>
         <a href="#menu" class="btn">Scopri il Menu</a>
       </div>
     </header>
 
-    <section id="about">
+    <!-- ===== ABOUT ===== -->
+    <section id="about" class="fade-in">
       <h2>La nostra storia</h2>
       <p>
         Nato nel 1995 nel cuore di Milano, <strong>Caffè Aurora</strong> è molto
@@ -35,7 +50,8 @@
       </p>
     </section>
 
-    <section id="specials">
+    <!-- ===== SPECIALS ===== -->
+    <section id="specials" class="fade-in">
       <h2>Le nostre specialità</h2>
       <div class="cards">
         <div class="card">
@@ -74,7 +90,8 @@
       </div>
     </section>
 
-    <section id="menu">
+    <!-- ===== MENU ===== -->
+    <section id="menu" class="fade-in">
       <h2>Il nostro Menu</h2>
       <ul>
         <li>☕ Espresso - 1,20€</li>
@@ -86,7 +103,44 @@
       <a href="#contact" class="btn">Prenota un tavolo</a>
     </section>
 
-    <section id="atmosphere">
+    <!-- ===== REVIEWS ===== -->
+    <section id="reviews" class="fade-in">
+      <h2>Cosa dicono i nostri clienti</h2>
+      <div class="reviews-container">
+        <div class="review">
+          <img src="https://randomuser.me/api/portraits/women/65.jpg" alt="Cliente" />
+          <p>"Il miglior cappuccino di Milano! Atmosfera accogliente e staff gentilissimo."</p>
+          <div class="stars">★★★★★</div>
+          <h4>Laura B.</h4>
+        </div>
+        <div class="review">
+          <img src="https://randomuser.me/api/portraits/men/33.jpg" alt="Cliente" />
+          <p>"Perfetto per una pausa pranzo veloce o un aperitivo con amici. Consigliatissimo!"</p>
+          <div class="stars">★★★★★</div>
+          <h4>Marco R.</h4>
+        </div>
+        <div class="review">
+          <img src="https://randomuser.me/api/portraits/women/12.jpg" alt="Cliente" />
+          <p>"Dolci squisiti e sempre freschi, da provare assolutamente la cheesecake!"</p>
+          <div class="stars">★★★★★</div>
+          <h4>Giulia F.</h4>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== GALLERY ===== -->
+    <section id="gallery" class="fade-in">
+      <h2>Uno sguardo al nostro locale</h2>
+      <div class="gallery-grid">
+        <img src="https://images.unsplash.com/photo-1498654896293-37aacf113fd9?auto=format&fit=crop&w=800&q=80" alt="Locale interno">
+        <img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=800&q=80" alt="Cocktail">
+        <img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=800&q=80" alt="Atmosfera serale">
+        <img src="https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&w=800&q=80" alt="Caffè">
+      </div>
+    </section>
+
+    <!-- ===== ATMOSPHERE ===== -->
+    <section id="atmosphere" class="fade-in">
       <h2>L’atmosfera</h2>
       <p>
         Luci calde, musica soffusa e un ambiente accogliente: il luogo perfetto
@@ -98,14 +152,25 @@
       </blockquote>
     </section>
 
-    <section id="contact">
+    <!-- ===== CONTACT ===== -->
+    <section id="contact" class="fade-in">
       <h2>Contattaci</h2>
       <p>📍 Via Roma 12, Milano</p>
       <p>📞 333 1234567</p>
       <p>✉️ info@caffeaurora.it</p>
       <p><strong>Orari:</strong> Lun-Dom, 7:00 – 22:00</p>
+
+      <!-- MAPPA -->
+      <div class="map-container">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2795.755799740621!2d9.19049841555617!3d45.46421157910098!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4786c6a5a74c95a1%3A0xa0b0f!2sMilano!5e0!3m2!1sit!2sit!4v1616575482695!5m2!1sit!2sit"
+          allowfullscreen=""
+          loading="lazy">
+        </iframe>
+      </div>
     </section>
 
+    <!-- ===== FOOTER ===== -->
     <footer>
       <p>© 2025 Caffè Aurora - Tutti i diritti riservati</p>
     </footer>
